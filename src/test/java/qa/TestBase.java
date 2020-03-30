@@ -6,7 +6,7 @@ import org.testng.annotations.*;
 
 public class TestBase {
 
-    private final AppManager appManager = new AppManager(BrowserType.CHROME);
+    private final AppManager appManager = new AppManager(BrowserType.FIREFOX);
 
 
 

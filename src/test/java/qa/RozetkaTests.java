@@ -25,7 +25,7 @@ public class RozetkaTests extends TestBase {
     }
 
     @Test(dataProvider="search")
-    public void searchProduct(String url, String searchTerm) throws Exception {
+    public void searchProduct(String url, String searchTerm)  {
 
         SearchPage searchPage = new HomePage(driver).open(url)
                 .clickOnSearchField()
